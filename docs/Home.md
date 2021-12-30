@@ -8,30 +8,30 @@ import TabItem from '@theme/TabItem';
 
 # Home
 
-#### XP Network in a nutshell
+#### Quigon in a nutshell
 
 <hr/>
 
 ## The first NFT Multi-bridge connecting 10+ distributed ledgers
 
-XP.network is the first blockchain-agnostic NFT ecosystem. It enables multichain support out of the box for any minted NFT, dApp, or use case, allowing NFTs and funds to flow freely between networks and wallets.
+Quigon is the first blockchain-agnostic NFT ecosystem. It enables multichain support out of the box for any minted NFT, dApp, or use case, allowing NFTs and funds to flow freely between networks and wallets.
 
 ![1.Demo-bridge.png](./../static/img/1.Demo-bridge.png)
 
 ## Build NFT dApps without code on 10+ blockchains
 
-XP.network is the very first no-code NFT development platform allowing creators and entrepreneurs alike to build and deploy quality NFT dApps without having to write a single line of code.
+Quigon is the very first no-code NFT development platform allowing creators and entrepreneurs alike to build and deploy quality NFT dApps without having to write a single line of code.
 
 ![Application Editor](./../static/img/2.ApplicationEditor.png)
 
 :::info
-## [01. WHAT IS XP NETWORK?](./what_is_xp_1_introduction)
+## [01. WHAT IS QUIGON?](./Whitepaper3.0/introduction.md)
 :::
 :::info
-## [02. MULTIBRIDGE](./multibridge_1_overview)
+## [02. QUIGON BRIDGE](./Whitepaper3.0/quigonbridge.md)
 :::
 :::info
-## [03. DEVELOPER RESOURCES](./developer_resources)
+## [03. QUIGON AGGREGATOR](./Whitepaper3.0/aggregator.md)
 :::
 
 ## Keep up to date!
@@ -62,11 +62,11 @@ XP.network is the very first no-code NFT development platform allowing creators 
 </TabItem>
 
 <TabItem value="Medium">
-<a href="https://blog.xp.network/">blog.xp.network</a>
+<a href="https://blog.Quigon/">blog.Quigon</a>
 </TabItem>
 
 <TabItem value="Website">
-<a href="https://xp.network/">Tearing down walls between blockchains</a>
+<a href="https://Quigon/">Tearing down walls between blockchains</a>
 </TabItem>
 
 <TabItem value="GitHub">

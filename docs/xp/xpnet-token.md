@@ -8,9 +8,9 @@ sidebar_position: 7
 <hr/>
 
 ## TOKEN FEATURES
-The $XPNET token is a critical component for incentivizing and rewarding the use of the XP Network. We have taken considerable time to think through our token mechanism design to ensure that we have a healthy token velocity by balancing both supply and demand through novel utility and features.
+The $XPNET token is a critical component for incentivizing and rewarding the use of the Quigon. We have taken considerable time to think through our token mechanism design to ensure that we have a healthy token velocity by balancing both supply and demand through novel utility and features.
 
-The following sections outline these features and how they go about securing XP Network from a game-theoretic perspective.
+The following sections outline these features and how they go about securing Quigon from a game-theoretic perspective.
 
 ## POA Network
 Given that the project is still in it's early stages of testing and deployment, we have decided to run our blockchain via a Proof of Authority consensus mechanism in order to facilitate speedy decision making and avoid delays in mainnet deployment.
@@ -40,7 +40,7 @@ A nominator is either a non-technical XPNET token holder who is unable to set up
 
 **Validator**
 
-Validators run a full XP Network node on the blockchain and participate actively in block signing and production. While validators receive transaction fees, they are personally liable for their stakes as well as the stakes of the nominators who support them. If a validator makes an error or signs fraudulent transactions on purpose, this damages one's reputation and the validator's and nominator's stakes are slashed.
+Validators run a full Quigon node on the blockchain and participate actively in block signing and production. While validators receive transaction fees, they are personally liable for their stakes as well as the stakes of the nominators who support them. If a validator makes an error or signs fraudulent transactions on purpose, this damages one's reputation and the validator's and nominator's stakes are slashed.
 
 **Slashing**
 

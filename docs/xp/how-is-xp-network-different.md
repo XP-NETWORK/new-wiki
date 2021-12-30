@@ -1,17 +1,17 @@
 ---
-sidebar_label: "How is XP Network Different?"
+sidebar_label: "How is Quigon Different?"
 sidebar_position: 4
 ---
 
-# How is XP Network Different?
+# How is Quigon Different?
 
 <hr/>
 
 ## How is XP different from other NFT minting solutions?
 
-XP Network combines the power of Polkadot's Parachain and Substrate architecture to deliver an all-in-one solution to address problems plaguing today's NFT platforms whilst at the same time making it easy and seamless for anyone to launch an NFT collection in a matter of clicks.
+Quigon combines the power of Polkadot's Parachain and Substrate architecture to deliver an all-in-one solution to address problems plaguing today's NFT platforms whilst at the same time making it easy and seamless for anyone to launch an NFT collection in a matter of clicks.
 
-The primary advantages of building on XP Network are as follows:
+The primary advantages of building on Quigon are as follows:
 
 :::tip
 **No-code Tools** - Our no-code tools, such as our Application Editor, are second to none, whilst also offering a high degree of customization via our Smart Contract Editor to also satisfy seasoned blockchain developers.
@@ -64,6 +64,6 @@ Each transaction on the network may contain a script that can call several modul
 
 ## Competitive Advantage
 
-The following table summarizes the competitive advantages of XP Network vs other NFT-as-a-service platforms:
+The following table summarizes the competitive advantages of Quigon vs other NFT-as-a-service platforms:
 
 ![Competition](../../static/img/12.Competitive_table.png)

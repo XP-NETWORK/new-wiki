@@ -18,7 +18,7 @@ The Migration-Module contains:
 3. Human readable code generator.
 4. Bytecode compiler.
    
-Since Move does not have a standard library for working with NFTs, XP Network’s NFT library for Move is an extension of the original standard library. Potentially other libraries and protocols could be added in the future.
+Since Move does not have a standard library for working with NFTs, Quigon’s NFT library for Move is an extension of the original standard library. Potentially other libraries and protocols could be added in the future.
 
 Also, since user-edited code can contain errors or may contradict some chosen blockchain policies, the code is tested by the XP.network Compliance Validator tool. The code tab includes a Validation Panel which displays the results of the Code Validator’s checks and either confirms that the code is free from errors and is regulations compliant, or indicates the lines in code that contain errors alongside with suggestions of improvement.
 

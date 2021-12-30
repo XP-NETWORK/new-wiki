@@ -9,11 +9,11 @@ XP.network isn’t just a multi-chain bridge framework. It offers a complete too
 
 <hr/>
 
-## XP Network Toolkit
+## Quigon Toolkit
 
 ![Toolkit](../../static/img/45.Toolkit.png)
 
-The XP Network consists of a series of developer-friendly modules to allow for a seamless NFT project creation process. These consist of:
+The Quigon consists of a series of developer-friendly modules to allow for a seamless NFT project creation process. These consist of:
 
 1. **Multibridge** - Allows users to transfer fungible liquidity and Non-Fungible Tokens between XP.network and the bridged blockchains.
 2. **Application Editor** - Allows users to configure their NFT project and overall user experience

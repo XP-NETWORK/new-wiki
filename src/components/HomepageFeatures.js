@@ -2,31 +2,36 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import styles from './HomepageFeatures.module.css';
+import SearchIcon from '../../static/img/new/icons/search.svg';
+
 
 const FeatureList = [
   {
-    title: 'What is XP.network',
+    title: (
+      < a href="/docs/Whitepaper3.0/introduction" target="_blank" >What is Quigon</a>
+    ),
     Svg: require('../../static/img/DarkRectangle.svg').default,
     description: (
-      <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+      <p>What is Quigon</p>
     ),
   },
   {
-    title: 'Whitepaper',
+    title: (
+      < a href="/docs/Whitepaper3.0/introduction" target="_blank" >Whitepaper</a>
+    ),
+
     Svg: require('../../static/img/DarkRectangle.svg').default,
     description: (
-      <></>
+      <p>Architecture and vission</p>
     ),
   },
   {
-    title: 'Multi-Chain',
+    title: (
+      < a href="/docs/API/usage" target="_blank" >JavaScript API</a>
+    ),
     Svg: require('../../static/img/DarkRectangle.svg').default,
     description: (
-      <></>
+      <p>Quickstart</p>
     ),
   },
 ];
@@ -34,12 +39,10 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className="lightBoxe">
+        {/* <Svg className={styles.featureSvg} alt={title} /> */}
+          <h3>{title}</h3>
+          {description}
       </div>
     </div>
   );
@@ -47,12 +50,28 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <section className="searchBanarContaienr">
+      <img src="/static/img/new/banar.png" className="searchBanarBg" />
+      <div className="searchbanar">
+        <div className="container">
+          <div className="searchBox">
+            <div className="searchTitle">
+              <h2>Welcome to the Quigon Docs</h2>
+            </div>
+            {/* <form action="#">
+              <button type="button"><img src="/static/img/new/icons/search.svg" /></button>
+              <input type="search" placeholder="Search" />
+            </form> */}
+          </div>
+        </div>
+      </div>
+      <div className="boxContainer">
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

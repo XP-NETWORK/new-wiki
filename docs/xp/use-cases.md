@@ -1,5 +1,5 @@
 ---
-sidebar_label: "How is XP Network Different?"
+sidebar_label: "How is Quigon Different?"
 sidebar_position: 5
 ---
 
@@ -9,9 +9,9 @@ sidebar_position: 5
 
 ![Use Cases](../../static/img/13.Use_cases.gif)
 
-XP Network enables a vast array of new NFT products and infrastructure to emerge, which will ultimately result in additional value-accrual to underlying NFT rights holders and NFT creators in general. Our philosophy is to provide simple tools to allow NFT project developers to focus on both securing and monetizing the NFT assets, without having to worry about the complexity of coding or smart contract security.
+Quigon enables a vast array of new NFT products and infrastructure to emerge, which will ultimately result in additional value-accrual to underlying NFT rights holders and NFT creators in general. Our philosophy is to provide simple tools to allow NFT project developers to focus on both securing and monetizing the NFT assets, without having to worry about the complexity of coding or smart contract security.
 
-The following are just some use cases which XP Network helps bring to life.
+The following are just some use cases which Quigon helps bring to life.
 
 <hr/>
 
@@ -30,7 +30,7 @@ Why should non-fungible tokens (NFTs) remain dormant in wallets? Several early-s
 The critical issue is price discovery: you can utilize an auction model, in which users make loan offers for a particular NFT collateral, or you can employ fractionalized NFTs in the form of fungible tokens as collateral. 
 Another possibility is to link to an oracle that will continuously monitor the value of an NFT (albeit such oracles do not yet exist). 
 
-We strive to provide a variety of options in our editor, and in either case, we at XP.network feel that NFT collateralization for lending has tremendous potential for "financializing" NFTs. XP Network facilitates the emergence of a multitude of use cases whilst also standardizing widely-understood web2 primitives and introducing a web3 version.
+We strive to provide a variety of options in our editor, and in either case, we at XP.network feel that NFT collateralization for lending has tremendous potential for "financializing" NFTs. Quigon facilitates the emergence of a multitude of use cases whilst also standardizing widely-understood web2 primitives and introducing a web3 version.
 
 <hr/>
 

@@ -17,9 +17,9 @@ We have developed the first and only cross-chain NFT Bridge which enables the ex
 * Huobi ECO (HECO) Chain
 * Polygon
 * Tron
-* XP Network
+* Quigon
 
-The XP Network's multi-chain bridge facilitates the seamless transfer of NFTs between all of the aforementioned mainnets. This accomplishment proves that interoperability between Ethereum Virtual Machine-based chains and WASM-VM-based chains is not only possible, but is also on the verge of being operational.
+The Quigon's multi-chain bridge facilitates the seamless transfer of NFTs between all of the aforementioned mainnets. This accomplishment proves that interoperability between Ethereum Virtual Machine-based chains and WASM-VM-based chains is not only possible, but is also on the verge of being operational.
 
 <hr/>
 
@@ -65,7 +65,7 @@ The ID will come from the Frontend UI, where a user cannot make an error.
 
 The changes will happen in the code of the validators, where the IDs will be mapped to the target blockchain names.
 
-Transferable tokens on XP Network comply with the following standards:
+Transferable tokens on Quigon comply with the following standards:
 
 * ERC-20
 * ERC-721

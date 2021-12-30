@@ -4,17 +4,20 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to the XP Network Docs',
+  title: 'Welcome to the Quigon Docs',
   tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'xp-network', // Usually your GitHub org/user name.
-  projectName: 'xp.network.wiki', // Usually your repo name.
+  favicon: 'img/favicon.jpeg',
+  organizationName: 'Quigon', // Usually your GitHub org/user name.
+  projectName: 'wiki.quigon.com', // Usually your repo name.
 
   presets: [
     [
@@ -25,6 +28,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -33,26 +38,39 @@ const config = {
     ],
   ],
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      integrity:
+        'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
+      crossorigin: 'anonymous',
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'XP.Network',
         logo: {
-          alt: 'XP Network Wiki',
-          src: 'img/logo.svg',
+          alt: 'Quigon Wiki',
+          src: 'logo_black.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'Home',
             position: 'left',
-            label: 'Docs',
+            label: 'Home',
           },
           {
             href: 'https://github.com/xp-network',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
+          },
+          {
+            href: '/docs/API/usage',
+            label: 'API',
+            position: 'left',
           },
         ],
       },
@@ -65,6 +83,10 @@ const config = {
               {
                 label: 'Wiki',
                 to: '/docs/Home',
+              },
+              {
+                label: 'Whitepaper v 3.0',
+                to: '/docs/Whitepaper3.0/introduction',
               },
             ],
           },
@@ -98,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'Website',
-                href: 'https://xp.network',
+                href: 'https://quigon.com',
               },
               {
                 label: 'GitHub',
@@ -107,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} XP.Network Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Quigon Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
