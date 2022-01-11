@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Teck Stack'
+sidebar_label: "Teck Stack"
 sidebar_position: 9
 ---
 
@@ -9,11 +9,11 @@ XP.network isn’t just a multi-chain bridge framework. It offers a complete too
 
 <hr/>
 
-## Quigon Toolkit
+## XP.NETWORK Toolkit
 
 ![Toolkit](../../static/img/45.Toolkit.png)
 
-The Quigon consists of a series of developer-friendly modules to allow for a seamless NFT project creation process. These consist of:
+The XP.NETWORK consists of a series of developer-friendly modules to allow for a seamless NFT project creation process. These consist of:
 
 1. **Multibridge** - Allows users to transfer fungible liquidity and Non-Fungible Tokens between XP.network and the bridged blockchains.
 2. **Application Editor** - Allows users to configure their NFT project and overall user experience
@@ -49,7 +49,7 @@ Blockchains on Polkadot are custom-built and optimized for specific uses with a 
 ![Polkadot-4](../../static/img/49.Polkadot.png)
 
 ### 4. Large Developer Ecosystem
-   
+
 The Polkadot Developer ecosystem is growing at a rapid pace and is currently outpacing that of Ethereum at the same point in it's history. This is important as it will allow projects such as ours to leverage the synergies and primitives being developed by other ecosystem projects so as to bring products to market quicker.
 
 ![Polkadot-5](../../static/img/50.Polkadot.png)
@@ -57,4 +57,3 @@ The Polkadot Developer ecosystem is growing at a rapid pace and is currently out
 Polkadot is also supported by the web3 Foundation which is a growing not-for-profit organization dedicated to increasing adoption of the Polkadot network by providing grants and funding for promising up and coming projects.
 
 ![Polkadot-6](../../static/img/51.Polkadot.png)
-

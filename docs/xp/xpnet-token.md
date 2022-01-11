@@ -1,5 +1,5 @@
 ---
-sidebar_label: '$XPNET Token'
+sidebar_label: "$XPNET Token"
 sidebar_position: 7
 ---
 
@@ -8,16 +8,19 @@ sidebar_position: 7
 <hr/>
 
 ## TOKEN FEATURES
-The $XPNET token is a critical component for incentivizing and rewarding the use of the Quigon. We have taken considerable time to think through our token mechanism design to ensure that we have a healthy token velocity by balancing both supply and demand through novel utility and features.
 
-The following sections outline these features and how they go about securing Quigon from a game-theoretic perspective.
+The $XPNET token is a critical component for incentivizing and rewarding the use of the XP.NETWORK. We have taken considerable time to think through our token mechanism design to ensure that we have a healthy token velocity by balancing both supply and demand through novel utility and features.
+
+The following sections outline these features and how they go about securing XP.NETWORK from a game-theoretic perspective.
 
 ## POA Network
+
 Given that the project is still in it's early stages of testing and deployment, we have decided to run our blockchain via a Proof of Authority consensus mechanism in order to facilitate speedy decision making and avoid delays in mainnet deployment.
 
 As and when the network grows we will transition over to a Proof of Stake consensus mechanism to support activities such as staking and governance, with the end goal of creating a more decentralized ecosystem.
 
 ## 01. PoS Validatio
+
 ![Validation](../../static/img/37.Validator.png)
 
 Proof of Stake is a mechanism for allocating validators to the validator pool based on their suitability. A validator's investment in XPNET tokens increases his or her chances of being appointed to the validator pool. Validators may be supported by the stakes of the nominator. A nominator may support up to 12 validators concurrently.
@@ -32,7 +35,7 @@ To avoid system takeover by advisories or centralisation, the number of equivoca
 
 ![Staking](../../static/img/38.Staking.png)
 
-Nominators and validators are the two primary stakeholder groups in the XP.network. 
+Nominators and validators are the two primary stakeholder groups in the XP.network.
 
 **Nominator**
 
@@ -40,7 +43,7 @@ A nominator is either a non-technical XPNET token holder who is unable to set up
 
 **Validator**
 
-Validators run a full Quigon node on the blockchain and participate actively in block signing and production. While validators receive transaction fees, they are personally liable for their stakes as well as the stakes of the nominators who support them. If a validator makes an error or signs fraudulent transactions on purpose, this damages one's reputation and the validator's and nominator's stakes are slashed.
+Validators run a full XP.NETWORK node on the blockchain and participate actively in block signing and production. While validators receive transaction fees, they are personally liable for their stakes as well as the stakes of the nominators who support them. If a validator makes an error or signs fraudulent transactions on purpose, this damages one's reputation and the validator's and nominator's stakes are slashed.
 
 **Slashing**
 
@@ -58,7 +61,7 @@ Without the charge, anyone might flood the network with meaningless transactions
 
 XP.network intends to allocate up to 10% of the total token supply to validators by subsidising the transaction fee at 100% from the treasury.
 
-At the moment, the transaction fee is calculated as m * size(TX) + b, where m (multiplier) equals 0.0005 XPNET. The weight of the transaction bytecode is specified by size(TX). b is the bias value, which is set to 0.001 XPNET.
+At the moment, the transaction fee is calculated as m \* size(TX) + b, where m (multiplier) equals 0.0005 XPNET. The weight of the transaction bytecode is specified by size(TX). b is the bias value, which is set to 0.001 XPNET.
 
 The transaction's weight is proportional to its complexity of execution and storage. The bias safeguards against flooding attacks. Transaction initiators can optionally include a tip to increase their transaction's priority in the transaction queue, hence increasing the transaction cost. In the future, token holders will vote on the transaction fee formula and rates via a public referendum.
 
@@ -70,7 +73,7 @@ Token holders will be able to smoothly transfer their assets to and from the bri
 
 The XPNET token will be available on the Polkadot, Elrond, HECO, Cardano, and DFINITY blockchains, among others. Once an account holder submits a request to send tokens to a bridging blockchain, the request is processed. The bridge secures the required amount in the original blockchain's smart contract and broadcasts an event.
 
-The validators for the bridge relays capture the event and sign the transaction. The target blockchain's smart contract collects the validators' signatures. Once the 2/3*n+1 signatures are received, the equal number of wrapped tokens is released to the specified account.
+The validators for the bridge relays capture the event and sign the transaction. The target blockchain's smart contract collects the validators' signatures. Once the 2/3\*n+1 signatures are received, the equal number of wrapped tokens is released to the specified account.
 
 The bridged blockchains' tokens can be transferred to XP.network in the same manner. XPNET can be used to purchase and sell other assets (such as NFTs), to lend and borrow, to save, and to serve as collateral.
 
@@ -82,7 +85,7 @@ XP.network will progressively implement a decentralised governance framework tha
 
 A sophisticated stakeholder-weighted voting mechanism will guarantee decision-making is transparent and equitable. The voter will receive more votes if there are more tokens or if the tokens are locked for a longer length of time. Following the expiration of the locking period, the locked tokens will be restored to their original wallets regardless of the referendum's outcome.
 
-If council members vote unanimously in favour of the modification proposal's need, a negative turnout bias is applied. This means that even if fewer than 50% of voters attend, a simple majority (n percent * 3 / 5 + 1) is sufficient to pass or reject a proposal. Where n percent denotes the proportion of votes won.
+If council members vote unanimously in favour of the modification proposal's need, a negative turnout bias is applied. This means that even if fewer than 50% of voters attend, a simple majority (n percent \* 3 / 5 + 1) is sufficient to pass or reject a proposal. Where n percent denotes the proportion of votes won.
 
 If the council supports the voting proposal but not unanimously, over 51% of total token holders must vote "yes" to ensure the community's interests are protected. If a referendum results in an improvement decision, the technical committee, which is elected by the council, will upload the code implementing the change.
 
@@ -105,6 +108,7 @@ At the same time, while the 5% earmarked for public sale is higher than many oth
 ![Vesting](../../static/img/43.VestingScedule.png)
 
 We attempted to strike a careful balance between two factors while developing the vesting and distribution schedule:
+
 1. The long-term stability of $XPNET on the one hand, and
 2. The natural desire of any investor to realise their gains on the other. If you prematurely unlock buyers' tokens, you risk a sell-off and a price crash.
 

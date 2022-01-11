@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Home'
+sidebar_label: "Home"
 sidebar_position: 1
 ---
 
@@ -8,50 +8,55 @@ import TabItem from '@theme/TabItem';
 
 # Home
 
-#### Quigon in a nutshell
+#### XP.NETWORK in a nutshell
 
 <hr/>
 
 ## The first NFT Multi-bridge connecting 10+ distributed ledgers
 
-Quigon is the first blockchain-agnostic NFT ecosystem. It enables multichain support out of the box for any minted NFT, dApp, or use case, allowing NFTs and funds to flow freely between networks and wallets.
+XP.NETWORK is the first blockchain-agnostic NFT ecosystem. It enables multichain support out of the box for any minted NFT, dApp, or use case, allowing NFTs and funds to flow freely between networks and wallets.
 
 ![1.Demo-bridge.png](./../static/img/1.Demo-bridge.png)
 
 ## Build NFT dApps without code on 10+ blockchains
 
-Quigon is the very first no-code NFT development platform allowing creators and entrepreneurs alike to build and deploy quality NFT dApps without having to write a single line of code.
+XP.NETWORK is the very first no-code NFT development platform allowing creators and entrepreneurs alike to build and deploy quality NFT dApps without having to write a single line of code.
 
 ![Application Editor](./../static/img/2.ApplicationEditor.png)
 
 :::info
-## [01. WHAT IS QUIGON?](./Whitepaper3.0/introduction.md)
+
+## [01. WHAT IS XP.NETWORK?](./Whitepaper3.0/introduction.md)
+
 :::
 :::info
-## [02. QUIGON BRIDGE](./Whitepaper3.0/quigonbridge.md)
+
+## [02. XP.NETWORK BRIDGE](./Whitepaper3.0/quigonbridge.md)
+
 :::
 :::info
-## [03. QUIGON AGGREGATOR](./Whitepaper3.0/aggregator.md)
+
+## [03. XP.NETWORK AGGREGATOR](./Whitepaper3.0/aggregator.md)
+
 :::
 
 ## Keep up to date!
 
 <Tabs
-  defaultValue="Telegram"
-  values={[
-    { label: 'Telegram', value: 'Telegram', },
-    { label: 'Twitter', value: 'Twitter', },
-    { label: 'LinkedIn', value: 'LinkedIn', },
-    { label: 'Medium', value: 'Medium', },
-    { label: 'Website', value: 'Website', },
-    { label: 'GitHub', value: 'GitHub', },
-    { label: 'Reddit', value: 'Reddit', },
-  ]
+defaultValue="Telegram"
+values={[
+{ label: 'Telegram', value: 'Telegram', },
+{ label: 'Twitter', value: 'Twitter', },
+{ label: 'LinkedIn', value: 'LinkedIn', },
+{ label: 'Medium', value: 'Medium', },
+{ label: 'Website', value: 'Website', },
+{ label: 'GitHub', value: 'GitHub', },
+{ label: 'Reddit', value: 'Reddit', },
+]
 }>
 <TabItem value="Telegram">
 <a href="https://t.me/xp_network">t.me/xp_network</a>
 </TabItem>
-
 
 <TabItem value="Twitter">
 <a class="twitter-timeline" href="https://twitter.com/XPNetwork_?ref_src=twsrc%5Etfw">twitter.com</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -62,11 +67,11 @@ Quigon is the very first no-code NFT development platform allowing creators and 
 </TabItem>
 
 <TabItem value="Medium">
-<a href="https://blog.Quigon/">blog.Quigon</a>
+<a href="https://blog.xp.network/">blog.XP.NETWORK</a>
 </TabItem>
 
 <TabItem value="Website">
-<a href="https://Quigon/">Tearing down walls between blockchains</a>
+<a href="https://xp.network/">Tearing down walls between blockchains</a>
 </TabItem>
 
 <TabItem value="GitHub">

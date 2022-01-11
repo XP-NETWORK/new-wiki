@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Overview & Structure'
+sidebar_label: "Overview & Structure"
 sidebar_position: 1
 ---
 
@@ -9,17 +9,17 @@ sidebar_position: 1
 
 We have developed the first and only cross-chain NFT Bridge which enables the exchange of NFTs between the following chains, with more to follow:
 
-* Avalanche
-* Binance Smart Chain
-* Elrond
-* Ethereum
-* Fantom
-* Huobi ECO (HECO) Chain
-* Polygon
-* Tron
-* Quigon
+- Avalanche
+- Binance Smart Chain
+- Elrond
+- Ethereum
+- Fantom
+- Huobi ECO (HECO) Chain
+- Polygon
+- Tron
+- XP.NETWORK
 
-The Quigon's multi-chain bridge facilitates the seamless transfer of NFTs between all of the aforementioned mainnets. This accomplishment proves that interoperability between Ethereum Virtual Machine-based chains and WASM-VM-based chains is not only possible, but is also on the verge of being operational.
+The XP.NETWORK's multi-chain bridge facilitates the seamless transfer of NFTs between all of the aforementioned mainnets. This accomplishment proves that interoperability between Ethereum Virtual Machine-based chains and WASM-VM-based chains is not only possible, but is also on the verge of being operational.
 
 <hr/>
 
@@ -52,6 +52,7 @@ Written in both Solidity (EVM chains) & Rust (Non-EVM chains), performs the foll
 ### C. Relay Validators
 
 Written in TypeScript and accompanied by the node of the bridged chains, they possess the following characteristics:
+
 1. Represented by valid accounts with private & public keys for each bridged blockchain and relaying logics
 2. Listen to the events in the bridged blockchains
 3. Sign the relayed transactions and pay the transaction fees in the target blockchain in its native tokens
@@ -65,14 +66,14 @@ The ID will come from the Frontend UI, where a user cannot make an error.
 
 The changes will happen in the code of the validators, where the IDs will be mapped to the target blockchain names.
 
-Transferable tokens on Quigon comply with the following standards:
+Transferable tokens on XP.NETWORK comply with the following standards:
 
-* ERC-20
-* ERC-721
-* ERC-1155
-* ESDT
-* BEP-20
-* BEP-721
-* BEP-1155
+- ERC-20
+- ERC-721
+- ERC-1155
+- ESDT
+- BEP-20
+- BEP-721
+- BEP-1155
 
 This provides us with the flexibility to move tokens between chains without losing data. In the event that a chain has its own standards, we can build a compatibility layer and still make the tokens easily movable.

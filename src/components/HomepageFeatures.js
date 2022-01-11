@@ -1,48 +1,47 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import styles from './HomepageFeatures.module.css';
-import SearchIcon from '../../static/img/new/icons/search.svg';
-
+import React from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import styles from "./HomepageFeatures.module.css";
+import SearchIcon from "../../static/img/new/icons/search.svg";
 
 const FeatureList = [
   {
     title: (
-      < a href="/docs/Whitepaper3.0/introduction" target="_blank" >What is Quigon</a>
+      <a href="/docs/Whitepaper3.0/introduction" target="_blank">
+        What is XP.NETWORK
+      </a>
     ),
-    Svg: require('../../static/img/DarkRectangle.svg').default,
-    description: (
-      <p>What is Quigon</p>
-    ),
+    Svg: require("../../static/img/DarkRectangle.svg").default,
+    description: <p>What is XP.NETWORK</p>,
   },
   {
     title: (
-      < a href="/docs/Whitepaper3.0/introduction" target="_blank" >Whitepaper</a>
+      <a href="/docs/Whitepaper3.0/introduction" target="_blank">
+        Whitepaper
+      </a>
     ),
 
-    Svg: require('../../static/img/DarkRectangle.svg').default,
-    description: (
-      <p>Architecture and vission</p>
-    ),
+    Svg: require("../../static/img/DarkRectangle.svg").default,
+    description: <p>Architecture and vission</p>,
   },
   {
     title: (
-      < a href="/docs/API/usage" target="_blank" >JavaScript API</a>
+      <a href="/docs/API/usage" target="_blank">
+        JavaScript API
+      </a>
     ),
-    Svg: require('../../static/img/DarkRectangle.svg').default,
-    description: (
-      <p>Quickstart</p>
-    ),
+    Svg: require("../../static/img/DarkRectangle.svg").default,
+    description: <p>Quickstart</p>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="lightBoxe">
         {/* <Svg className={styles.featureSvg} alt={title} /> */}
-          <h3>{title}</h3>
-          {description}
+        <h3>{title}</h3>
+        {description}
       </div>
     </div>
   );
@@ -56,7 +55,7 @@ export default function HomepageFeatures() {
         <div className="container">
           <div className="searchBox">
             <div className="searchTitle">
-              <h2>Welcome to the Quigon Docs</h2>
+              <h2>Welcome to the XP.NETWORK Docs</h2>
             </div>
             {/* <form action="#">
               <button type="button"><img src="/static/img/new/icons/search.svg" /></button>

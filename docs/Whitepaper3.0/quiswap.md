@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'QuiSwap'
+sidebar_label: "QuiSwap"
 sidebar_position: 3
 ---
 
@@ -11,27 +11,24 @@ Some users historically reside on one blockchain, its ecosystem, and currency. T
 
 **Definition**
 
-*QuiSwap* is a *derivative contract* used for nearly instantaneous conversion of one cryptocurrency into another at the best rate currently available in the market at a minimal transaction cost. The Quigon NFT Aggregator uses this tool behind the scenes. However, it is a self-sufficient product and can be used by any cryptocurrency enthusiast or professional trader as an effective exchange instrument while buying assets on foreign chains. 
-
-
-
+_QuiSwap_ is a _derivative contract_ used for nearly instantaneous conversion of one cryptocurrency into another at the best rate currently available in the market at a minimal transaction cost. The XP.NETWORK NFT Aggregator uses this tool behind the scenes. However, it is a self-sufficient product and can be used by any cryptocurrency enthusiast or professional trader as an effective exchange instrument while buying assets on foreign chains.
 
 **Swap Mechanics**
 
-The user submits the *principal amount* (the equivalent of the NFT price in the local currency) at the s*pot rate* (the best exchange rate available in the market for the target coin at the moment of submission). Additionally, a fee of X% of the principal amount is withdrawn from the user’s account to cover the interest rates of the *liquidity pool providers* (other users - holders of the (native - foreign) token pairs who staked their tokens for interest to make the swap mechanism possible). X is a variable that differs from one token pair to another and can vary in time due to the token price fluctuations.
+The user submits the _principal amount_ (the equivalent of the NFT price in the local currency) at the s*pot rate* (the best exchange rate available in the market for the target coin at the moment of submission). Additionally, a fee of X% of the principal amount is withdrawn from the user’s account to cover the interest rates of the _liquidity pool providers_ (other users - holders of the (native - foreign) token pairs who staked their tokens for interest to make the swap mechanism possible). X is a variable that differs from one token pair to another and can vary in time due to the token price fluctuations.
 
 **Supported Tokens**
 
 At the moment of writing, the following tokens are available for instant swapping:
 
-*ETH, BNB, MATIC, SOL, AVAX, ALGO, TRX, EGLD, FTM, XTZ, xDAI.*
+_ETH, BNB, MATIC, SOL, AVAX, ALGO, TRX, EGLD, FTM, XTZ, xDAI._
 
 The exchange rates are dynamic and will change in time depending on the market price of the tokens. We will keep adding more liquidity pairs as we integrate more chains into our ecosystem.
 
 **Slippage**
 
-Potentially, by the time QuiSwap displays the estimated price to the user, and the user decides to purchase, the price of the target coins could rise or fall to the native token. For the transaction to succeed, the user should set the *slippage*, the difference between the initially observed, and the current price of the target token the user can accept. For example, if the slippage is 0.50% and the price of the target coin grows by half a per cent or less, the transaction will succeed.
+Potentially, by the time QuiSwap displays the estimated price to the user, and the user decides to purchase, the price of the target coins could rise or fall to the native token. For the transaction to succeed, the user should set the _slippage_, the difference between the initially observed, and the current price of the target token the user can accept. For example, if the slippage is 0.50% and the price of the target coin grows by half a per cent or less, the transaction will succeed.
 
 **Deadline**
 
-If the user has confirmed the slippage lower than the actual, the transaction will be pending until the slippage matches the desired one. However, this may not happen in a reasonable time. To avoid waiting forever, the user can set the *deadline* (the length of time the user is ready to wait for slippage to match the one set by the user). If the deadline expires before the slippage matches the set value, QuiSwap will cancel the transaction. However, the user can resubmit the same transaction with a higher slippage, extended deadline, or a combination of both.
+If the user has confirmed the slippage lower than the actual, the transaction will be pending until the slippage matches the desired one. However, this may not happen in a reasonable time. To avoid waiting forever, the user can set the _deadline_ (the length of time the user is ready to wait for slippage to match the one set by the user). If the deadline expires before the slippage matches the set value, QuiSwap will cancel the transaction. However, the user can resubmit the same transaction with a higher slippage, extended deadline, or a combination of both.
